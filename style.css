@@ -1,0 +1,35 @@
+.container{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header{
+    background-color: silver;
+}
+
+a{
+    display: inline-block;
+    border: 1px solid balck;
+    background-color: silver;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.paragraph{
+    width: 220px;
+    display: inline-block;
+    margin-right: 22px;
+}
+
+@media all and (max-width: 855px) {
+    .links{
+        display: none;
+    }
+
+    #last{
+        width: 100%;
+        display: inline;
+        margin-right: 0px;
+    }
+}
